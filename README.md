@@ -37,4 +37,4 @@ Then, the forecasted volatility on unseen data for the next 7 days is plotted be
 
 To back test the forecasted volatility, the returns of the SPY checked during that period as seen on the graph below where the volatility of SPY increased. 
 
-!()[plot08.png]
+!()[Plot08.png]
