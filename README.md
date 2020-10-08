@@ -5,7 +5,7 @@ This project will use two different time series models Autoregressive Integrated
 ### ARIMA Model: (Coding done in R)
 The ETF prices have been transformed to the daily log returns to remove stationarity from the time series as shown in the figure below. Then, the Augmented Dickey-Fuller (ADF) test  is applied to check if stationarity is removed or not. The result of the ADF test indicate that data is stationary and ready to be fitted using the ARIMA model. 
 
-!()[]
+!()[Rplot01.png]
 
 To choose the parameters of the ARIMA, the auto.arima function in the package forecast in R is used. The function indicates that ARIMA(2,0,4) fit this data the best according to AIC criteria. In order to check the selection of the parameters, ACF and PACF plots applied on the data and the plots indicate that the selection of ARIMA (2,0,4) is reasonable. 
 
