@@ -1,7 +1,7 @@
 # Time-Series-Forecasting
 
 This project will use two different time series models Autoregressive Integrated Moving Average (ARIMA) model and Generalized Autoregressive Conditional Heteroskedasticity (GARCH) model in forecasting the returns of the SPY ETF which tracks the of the S&P 500. Time series will be fitted from the end of March 2019 to the end of September 2020 using the aforementioned models which will be used to forecast the short term returns of SPY during the beginning of October 2020. The purpose of forecasting is to find out if there are predictive buying and selling signals.  
-!()[Rplot0.ng] 
+!(Figure1)[Rplot0.ng] 
 
 ### ARIMA Model: (Coding done in R)
 The ETF prices have been transformed to the daily log returns to remove stationarity from the time series as shown in the figure below. Then, the Augmented Dickey-Fuller (ADF) test  is applied to check if stationarity is removed or not. The result of the ADF test indicate that data is stationary and ready to be fitted using the ARIMA model. 
