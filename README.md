@@ -11,9 +11,6 @@ The ETF prices have been transformed to the daily log returns to remove stationa
 
 To choose the parameters of the ARIMA, the auto.arima function in the package forecast in R is used. The function indicates that ARIMA(2,0,4) fit this data the best according to AIC criteria. In order to check the selection of the parameters, ACF and PACF plots applied on the data and the plots indicate that the selection of ARIMA (2,0,4) is reasonable. 
 
-![](Rplot02.png)
-
-
 The accuracy of the ARIMA(2,0,4) on that the specific time period is 66% which is based on the direction, so for example when the predicted return of a given day is positive and the actual return is positive as well, then that is considered as a correct prediction. On the other hand, when the predicted return of a given day is negative and the actual return is positive, then that is considered as an incorrect prediction. The figure below shows the predicted returns (on red) versus the actual returns. 
 
 
