@@ -109,3 +109,4 @@ table(comparsion$Accuracy)
 # the accuracy percentage 
 Accuracy_percentage = (sum(comparsion$Accuracy == 1)/length(comparsion$Accuracy))*100
 print(Accuracy_percentage)
+
